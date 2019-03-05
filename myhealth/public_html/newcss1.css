@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    max-width: 1480px;
+    height: 900px; 
+    background-size: cover;
+}
+.hero-image {
+  background-image: url("img/bann.png");
+  height: 24%;
+  width: 93%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-left: 100px; 
+}
+    
+    .Menu{
+        margin-top: 0px; 
+        width: 100%;
+        background:#1f3d7d;
+        overflow: auto;
+    }
+    
+    .Menu ul{
+       margin:0;
+       padding:0;
+       list-style:none;
+       line-height: 38px; 
+        
+    }
+  
+    .Menu li{
+       float:left;
+    }
+    .Menu ul li a{
+       background:#1f3d7d;
+       text-decoration: none;
+       width:130px;
+       display:block;
+       text-align:center;
+       color:white;
+       font-size:18px;
+       font-family:sans-serif;
+       letter-spacing:0.5px
+    }
+     .Menu li a:hover{
+       border: 1px solid #82e9f7;  
+       background: #028bcf;  
+       font-size:19px;
+    }
+    #home:active{
+        background: #82e9f7;
+        color: white;
+    }
+     .search_form{
+       background:#1f3d7d;
+       margin-top:55px;
+       float:right;
+       margin-right:100px;
+
+    }
+
+     input[type=text]{
+       padding:7px;
+       margin-top: 10px;
+       margin-left: 401px;
+       border:none;
+       font-size:16px;
+       font-family:sans-serif;
+    }
+    
+     button{
+       float:right;
+       margin-top: 10px;
+       margin-left: 0px;
+       margin-right: 50px;
+       background:#bdf773;
+       color:black;
+       border-radius: 0 5px 5px 0;
+       cursor: pointer;
+       position: relative;
+       padding:7px;
+       font-family:sans-serif;
+       border:none;
+       font-size:16px;
+    }
+    .wraper{
+        border: 1px solid white;
+        background: white;
+        margin-top: 15px;
+        margin-left: 5px;
+        width: 1480px; 
+        height: 480px;
+    }
+    .S{
+        margin-right: 20px;
+        margin-left: 30px
+    }
+   
+    #C1{
+        border: 1px;
+     display: block;
+     margin-top: 30px;
+     margin-bottom: 70px;
+     margin-left: 90px;
+    }
+    #C2{
+        border: 1px;
+     display: block; 
+     margin-left: 90px;
+    }
+    
+    
+    #About{
+        position: relative;
+        border: 1px;
+        width: 200px;
+        text-align: left;
+        //margin-left: 1100px;
+        margin-bottom: 20px;
+    }
+
+

@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="newcss.css">
+        <title>Chating Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="css/HF.css">
+        <style>
+.hero-image {
+  background-image: url("img/banner_1.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-left: 100px; 
+}                       
+        </style>
+    </head>
+    
+    <body>
+        <header class="hero-image"></header>
+            <nav class="Menu">
+        
+        <ul>
+            <li><a href="http://localhost:8383/My%20Health%20from%20A%20to%20Z/index.html" id="home">Home</a></li>
+             <li><a href="http://localhost:8383/My%20Health%20from%20A%20to%20Z/admin.html">Admin</a></li>
+            <li><a href="http://localhost:8383/My%20Health%20from%20A%20to%20Z/DoctorPage.html">Doctor</a></li>
+            <li><a href="http://localhost:8383/My%20Health%20from%20A%20to%20Z/Patient%20Page.html">Patient</a></li>
+            <li><a href="http://localhost:8383/My%20Health%20from%20A%20to%20Z/AboutUS.html">About US</a></li>
+            <li><a href="http://localhost:8383/My%20Health%20from%20A%20to%20Z/Contact%20US.html">Contact US</a></li>
+        </ul>
+        <button class="Regester" >Login</button> 
+        <button class="Regester" >Register</button>
+        <form class="Search_form">
+            <input type="text" placeholder="Search..." id="search">
+            <button class="Search">Search</button>
+        </form>
+        
+    </nav>
+        <div class="chat">
+            <div id="massege"></div>
+            <div id="order1">
+            Write Massege: <input type="text" id="myText">
+            <button onclick="myFunction()">Send</button>
+            </div>
+        </div>
+        <div id="d" ></div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myText").value;
+                document.getElementById("massege").style.display = "block";
+                document.getElementById("massege").innerHTML = x;
+            }
+        </script>
+        
+              
+    </body>
+</html>

@@ -1,0 +1,433 @@
+
+/*static style for all pages*/
+body{
+    margin: 0;
+    max-width: 1480px;
+    height: 900px; 
+    background-size: cover;
+}
+
+/*Patient pages style*/
+#Patient{
+    margin-top: 46px;
+    margin-left: 508px;
+}
+.PatientButtons{
+    float: left;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#PP{
+   border: 1px; 
+   float: left;
+}
+#SearchDoctorButton{
+    background-image: url("img/searchicon1.png");
+    background-size: 76px 76px;
+    margin-top: -218px;
+    margin-left: 690px;
+    height: 77px;
+    width: 78px;
+}
+#MyProfileButton{
+    background-image: url("img/profileicon1.png");
+    background-size: 75px 76px;
+    margin-top: -85px;
+    margin-left: 411px;
+    height: 76px;
+    width: 76px;
+}
+#AskDoctorButton{
+    background-image: url("img/askicon1.png");
+    background-size: 76px 74px;
+    margin-top: -215px;
+    margin-left: -76px;
+    height: 76px;
+    width: 77px;
+}
+#ChatDoctorButton{
+    background-image: url("img/chaticon1.png");
+    background-size: 74px 73px;
+    margin-top: -90px;
+    margin-left: 204px;
+    height: 75px;
+    width: 76px;
+}
+#FeedbackButton{
+    background-image: url("img/feedbackicon1.png");
+    background-size: 74px 73px;
+    margin-top: 0px;
+    margin-left: -258px;
+    height: 75px;
+    width: 76px;
+}
+
+.PatientLabels{
+    float: left;
+    padding: 2px;
+    font-family: Andalus;
+    font-size: 18px;
+}
+#SearchDoctorLabel0{
+    margin-top: -142px;
+    margin-left: 680px;
+}
+#MyProfileLabel{
+   margin-top: -11px;
+   margin-left: 409px;
+}
+#AskDoctorLabel{
+    margin-top: -144px;
+    margin-left: -87px;
+}
+#ChatDoctorLabel{
+    margin-top: -15px;
+    margin-left: 185px;
+}
+#FeedbackLabel {
+    margin-top: 71px;
+    margin-left: -275px;
+}
+
+/*Search Doctor Page*/
+#serOption {
+    float: left;
+    margin-top: 40px;
+    margin-left: 331px;
+}
+#serOptionLabel{
+    float: left;
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 366px;
+    width: 170px;
+    border-radius: 50%;
+    font-family: Andalus;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+#searchDoctor{
+    margin-top: -384px;
+    margin-left: 608px;
+}
+#searchDoctorLabel{
+    float: left;
+    position: absolute;
+    margin-top: -358px;
+    margin-left: 614px;
+    width: 209px;
+    font-family: Andalus;
+    font-size: 29px;
+    text-align: center;
+    color: black;
+}
+
+#byName{
+  background: url("img/byName1.png");
+  background-size: 241px 97px;
+  float: left;
+  margin-top: -368px;
+  margin-left: 608px;
+  padding-left: 22PX;
+  height: 98px;
+  width: 245px;
+  font-family: Andalus;
+  font-size: 29px;
+  text-align: center;
+  color: black;
+}
+#byDisease{
+  background: url("img/byDisease1.png");
+  background-size: 241px 97px;
+  float: left;
+  margin-top: -189px;
+  margin-left: 607px;
+  padding-left: 38PX;
+  height: 89px;
+  width: 243px;
+  font-family: Andalus;
+  font-size: 29px;
+  text-align: center;
+  color: black;
+}
+
+/*SearchDoctorNames style*/
+.column , .column1 ,.column2 {
+    background-size: 407px 677px;
+    background-repeat: no-repeat;
+    float: left;
+    width: 32%;
+    height: 226px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.column{
+    background-image: url("img/info.png");
+}
+.column1{
+    background-image: url("img/tret.png");
+    background-size: 405px 225px;
+    border-style: solid;
+    border-color: black;
+}
+.column2{
+    background-image: url("img/tret1.png");
+    background-size: 405px 226px;
+    border-style: solid;
+    border-color: black;
+   
+}
+.ReadButton{
+    clear: left;
+    position: absolute;
+    top: 38%;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height:38px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:90%; 
+    left:70%;
+}
+.askButtin{
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height:38px; 
+    width:50px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:90%; 
+    left:98%;
+}
+/*SearchDoctorNames page Style*/
+form{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.column {
+    background-image: url("img/info.png");
+    background-size: 407px 677px;
+    float: left;
+    width: 31%;
+    height: 226px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.ReadButton{
+    clear: left;
+    background-color: white;
+    height:38px;
+    width: 90px;
+    padding: 10px;
+    margin: -20px -35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    text-align: center; 
+    top:90%; 
+    left:70%;
+    position:relative;
+}
+.askButtin{
+    background-color: white;
+    height:38px;
+    width:50px;
+    padding: 10px;
+    margin: -20px -67px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    text-align: center; 
+    top:90%; 
+    left:98%;
+    position:relative;
+}
+/*AskDoctorPage style*/
+#askDoctor{
+    text-align: left;
+}
+.ask{
+    background: #028bcf;
+    height: 362px;
+    width: 559px;
+    border-radius: 29px;
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 335px;
+}
+/*Doctor Gender page style*/
+#gender{
+    margin-top: -474px;
+    margin-left: 505px;
+    clear: left;
+    font-family: Andalus;
+    font-size: 29px;
+    color: black;
+}
+#man{
+  background: url(img/dman.png);
+  float: left;
+  margin-top: -26px;
+  margin-left: 495px;
+  height: 473px;
+  width: 136px;
+  background-repeat: no-repeat;
+  border: none;
+}
+#weman{
+  background: url(img/dweman.png);
+  float: left;
+  margin-top: -474px;
+  margin-left: 659px;
+  height: 473px;
+  width: 139px;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+#profilePatient{
+    text-align: left;
+    display: block;
+}
+.chat , .feedback{
+    background: #028bcf;
+    height: 362px;
+    width: 559px;
+    border-radius: 29px;
+    padding: 20px;
+    margin: 30px;
+    color: white;
+    margin-left: 345px;
+    position: absolute;
+}
+.profile, .PasswordText {
+    background: #028bcf;
+    height: 258px;
+    width: 483px;
+    border-radius: 29px;
+    padding: 74px;
+    margin-top: 30px;
+    margin-left: 335px;
+    color: white;
+}
+
+#massege{
+    position: fixed;
+    background: url(img/Chat1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+    margin-top: 226px;
+    margin-bottom: -91px;
+    margin-left: 98px;
+    height: 167px;
+    width: 202px;
+    padding: 10px;
+    color: black;
+    display: none;
+}
+#order1{
+    position: fixed;
+    padding-top: 342px;
+}
+.profileText {
+    margin-bottom: 10px;
+    height: 32px;
+    width: 210px;
+}
+#fname{
+    margin-left: 25px;
+}
+#lname{
+    margin-left: 27px;
+}
+#email{
+    margin-left: 63px;
+}
+#updatePass{
+    margin-top: 50px;
+    background: white;
+    border: none;
+    border-radius: 29px;
+    padding: 7px;
+    height: 32px;
+    width: 124px;
+}
+#update {
+    margin-top: 50px;
+    background: white;
+    border: none;
+    border-radius: 29px;
+    padding: 7px;
+    margin-left: 222px;
+    margin-right: 38px;
+    height: 32px;
+    width: 94px;
+}
+#password , #passwordConfirm{
+    margin-bottom: 10px;
+    height: 32px;
+    width: 210px;
+}
+#password{
+    margin-left: 54px;
+}
+#passwordConfirm{
+     margin-left: 30px;
+}
+#savePassword{
+    margin-top: 50px;
+    background: white;
+    border: none;
+    border-radius: 29px;
+    padding: 7px;
+    margin-left: 370px;
+    margin-right: 38px;
+    height: 32px;
+    width: 94px;
+}
+
+#quistion{
+    background: url(img/quistion.png);
+    background-repeat: no-repeat;
+    background-size: 201px 58px;
+    margin-top: 22px;
+    margin-bottom: -91px;
+    margin-left: 13px;
+    height: 91px;
+    width: 182px;
+    padding: 10px;
+}
+#reply{
+    background: url(img/reply.png);
+    background-repeat: no-repeat;
+    background-size: 200px 53px;
+    margin-top: 65px;
+    margin-bottom: -91px;
+    margin-left: 331px;
+    height: 167px;
+    width: 202px;
+    padding: 10px;
+}

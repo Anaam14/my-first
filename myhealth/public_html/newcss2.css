@@ -1,0 +1,700 @@
+ #parent{
+    margin-top: 49px;
+    position: relative;
+    width: 1099px;
+    height: 600px;
+    background-color: #e5f6ff;
+}
+/*Doctor page*/
+#doctorman{
+    position: absolute;
+    top: 34px;
+    left: 450px;
+}
+#doctorwman{
+  position: absolute;
+  top: 39px;
+  left: 659px;
+}
+#pb{
+background-image: url("img/searchicon1.png");
+background-size: 76px 76px;
+position: absolute;
+top: 98px;
+left: 819px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+#pl{
+position: absolute; 
+top: 176px;
+left: 814px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px;
+}
+#pb1{
+background-image: url("img/a1.jpg");
+position: absolute; 
+background-size: 78px 78px;
+top: 364px;
+left: 396px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+#pl1{
+position: absolute; 
+top: 443px;
+left: 373px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px;
+}
+
+#pb2{
+position: absolute;
+background: url(img/a.jpg);
+background-size: 78px 78px;
+top: 223px;
+left: 337px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+}
+#pl2{
+position: absolute;
+top: 303px;
+left: 328px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px;
+}
+#pb3{
+     background-image: url("img/profileicon1.png");
+    position: absolute;
+    background-size: 78px 78px;
+    top: 363px;
+    left: 796px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+#pl3{
+position: absolute;
+top: 443px;
+left: 804px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px;
+}
+#pb4{
+    background-image: url("img/askicon1.png");
+    position: absolute;
+    background-size: 78px 78px;
+top: 223px;
+left: 869px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+#pl4{
+    position: absolute;
+   top: 303px;
+left: 865px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px;
+}
+#pb5{
+    background-image: url("view.png");
+    position: absolute;
+    background-size: 78px 78px;
+top: 98px;
+left: 381px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+#pl5{
+    position: absolute;
+    top: 176px;
+   left: 350px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px;
+}
+/*form{
+   position: absolute;  
+     left: 35px;
+*/
+/*chatwithpatient*/
+.chat{
+    margin-left: 345px;
+    position: absolute;
+}
+#massege{
+    position: absolute;
+    background: url(img/Chat1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+    margin-top: 226px;
+    margin-bottom: -91px;
+    margin-left: 98px;
+    height: 167px;
+    width: 202px;
+    padding: 10px;
+    color: blue;
+    display: none;
+}
+#order1{
+    position: absolute;
+    padding-top: 342px;
+}
+
+/*.column {
+    background-image: url("doinf.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 32%;
+    height: 226px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}*/
+
+
+/*.patientrow{
+   position: relative;  
+   top: 43px;  
+}
+*/
+
+.raplybox , .medicinebox,.PasswordText{
+    background: #028bcf;
+    height: 300px;
+    width: 500px;
+    border-radius: 29px;
+    padding: 100px;
+    margin: 30px;
+}
+
+/*SearchPationtNames+Disease+GeneralInfo style*/
+#serOption{
+  position: absolute;
+    margin-top: 40px;
+    margin-left: 331px;
+}
+#bd{
+     background: url(img/byName1.png);
+  background-size: 241px 97px;
+   position: absolute;
+  top: 336px;
+  left: 607px;
+  height: 89px;
+  width: 243px;
+  font-family: Andalus;
+  font-size: 29px;
+  text-align: center;
+  color: black;
+}
+#bn{
+    
+   background: url(img/byName1.png);
+  background-size: 241px 97px;
+   position: absolute;
+  top: 192px;
+  left: 608px;
+  height: 98px;
+  width: 245px;
+  font-family: Andalus;
+  font-size: 29px;
+  text-align: center;
+  color: black;
+}
+#optionButton{
+        float: left;
+    position: absolute;
+    top: 87px;
+    left: 353px;
+    width: 196px;
+    border-radius: 50%;
+    font-family: Andalus;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+#searchpatientsname{
+   position: absolute;  
+   top: 10px;
+   left: 315px;
+   
+}
+.column1 ,.column2 {
+    background-size: 293px 196px;
+    background-repeat: no-repeat;
+    float: left;
+    width: 336px;
+    height: 226px;
+    margin-top:10px;
+    margin-left:  10px;
+    display: flex;
+}
+.column1{
+    background-image: url("img/tret.png");
+    background-size: 337px 222px;
+    border-style: solid;
+    border-color: black;
+}
+.column2{
+    background-image: url("img/tret1.png");
+    background-size: 337px 226px;
+    border-style: solid;
+    border-color: black;
+   
+}
+
+
+.columns14{
+ position: absolute;
+top: 41px;
+left: 9px;
+height: 566px;
+width: 1082px;
+}
+
+.columns25{
+    position: absolute;
+top: 41px;
+left: 354px;
+height: 566px;
+width: 1082px;
+}
+
+.columns36{
+    position: absolute;
+top: 41px;
+left: 717px;
+height: 566px;
+width: 1082px;
+}
+.column {
+    background-image: url("img/pmaan.png");
+   background-repeat: no-repeat;
+    background-size: 399px 226px;
+    width: 351px;
+    height: 206px;
+    position: absolute;
+    top: -215px;
+}
+.firstColumn {
+    position: relative;
+    background-image: url("img/pmaan.png");
+     background-repeat: no-repeat;
+    background-size: 399px 226px;
+    width: 351px;
+    height: 206px;
+    top: 213px;
+}
+
+.secondColumn{
+    position: relative;
+    background-image: url("img/pmaan.png");
+     background-repeat: no-repeat;
+    background-size: 399px 226px;
+    width: 351px;
+    height: 206px;
+    top: 213px;
+    left: 20px;
+}
+
+.thirdColumn{
+    position: relative;
+    background-image: url("img/pmaan.png");
+     background-repeat: no-repeat;
+    background-size: 399px 226px;
+    width: 351px;
+    height: 206px;
+    top: 213px;
+    left: 20px;
+}
+.ReadButton1{
+    clear: left;
+    position: absolute;
+    background-color: #080d44;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height:38px; 
+    width: 90px;
+    top: 160px;
+    left: 209px;
+}
+.askButtin1{
+    position: absolute;
+    background-color: #0382ac;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height:38px; 
+    width: 43px;
+    top: 160px;
+    left: 302px;
+}
+#Read01,#Read02,#Read03,#Read04,#Read05,#Read06{
+    position: absolute;
+    top: 160px;
+    left: 208px;
+}
+
+
+
+/*profile page*/
+.profile , .chat{
+    background: #028bcf;
+    height: 362px;
+    width: 559px;
+    border-radius: 29px;
+    padding: 20px;
+    margin: 30px;
+}
+
+
+/*#imge{
+    margin: 10px;   
+}
+
+#imge2{
+    margin-top: 40px;
+    margin-left: 508px;
+}
+
+#b1{
+  float: left;
+margin-top: -402px;
+margin-left: 701px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+#b2{
+        float: left;
+    margin-top: -401px;
+    margin-left: 444px;
+    height: 76px;
+width: 76px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+}
+#b3{
+  float: left;
+margin-top: -278px;
+margin-left: 408px;
+height: 77px;
+width: 82px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+#b4{
+      float: left;
+      margin-top: -273px;
+margin-left: 739px;
+height: 75px;
+width: 76px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+
+#l1{
+    float: left;
+margin-top: -325px;
+margin-left: 696px;
+padding: 2px;
+background: white;
+border-radius: 29px;
+font-family: Andalus;
+font-size: 18px;
+}
+#l2{
+    float: left;
+margin-top: -325px;
+margin-left: 443px;
+padding: 2px;
+background: white;
+border-radius: 29px;
+font-family: Andalus;
+font-size: 18px;
+}
+#l3{
+    float: left;
+margin-top: -199px;
+margin-left: 407px;
+padding: 2px;
+background: white;
+border-radius: 29px;
+font-family: Andalus;
+font-size: 18px;
+}
+#l4{
+    float: left;
+margin-top: -196px;
+margin-left: 718px;
+padding: 2px;
+background: white;
+border-radius: 29px;
+font-family: Andalus;
+font-size: 18px;
+}
+
+#sdl{
+    float: left;
+    position: absolute;
+    margin-top: -358px;
+    margin-left: 614px;
+    width: 220px;
+    font-family: Andalus;
+    font-size: 29px;
+    text-align: center;
+    color: black;
+}
+
+
+
+#sd{
+    margin-top: -384px;
+    margin-left: 608px;
+}
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9{
+    float: left;
+    margin-top:10px;
+    margin-left: 10px;
+}
+#bp1{
+    float: left;
+position: absolute;
+margin-top: 204px;
+margin-left: -179px;
+}
+#bp2{
+    float: left;
+position: absolute;
+margin-top: 204px;
+margin-left: -175px;
+}
+
+
+.btn{
+    clear: left;
+    position: absolute;
+    top: 38%;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height:38px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:90%; 
+    left:70%;
+}
+.btn1{
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height:38px; 
+    width:50px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:90%; 
+    left:98%;
+}
+
+/*#dm{
+  background: url(dman.png);
+  float: left;
+  margin-top: -26px;
+  margin-left: 495px;
+  height: 473px;
+  width: 136px;
+  background-repeat: no-repeat;
+  border: none;
+}
+*/
+
+/*#dw{
+  background: url(dweman.png);
+  float: left;
+  margin-top: -474px;
+  margin-left: 659px;
+  height: 473px;
+  width: 139px;
+  background-repeat: no-repeat;
+  border: none;
+}*/
+/*#gender{
+    margin-top: -474px;
+    margin-left: 505px;
+    clear: left;
+    font-family: Andalus;
+    font-size: 29px;
+    color: black;
+}*/
+
+
+
+
+
+/*.buttonRead{
+    background-image: url("r.png");
+    border: 1px solid #1f3d7d; 
+    clear: left;
+    background-color:white;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height:38px; 
+    width:100px; 
+    margin: -20px -50px -20px -51px ;
+    position:relative;
+    top:88%; 
+    left:69%;
+}*/
+/*.buttonReply{
+    background-image: url("n.png");
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #1f3d7d; 
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height:38px; 
+    width:55px; 
+    margin: -20px -50px -20px -51px ;
+    position:relative;
+    top:88%; 
+    left:99%;
+}*/
+
+/*#profilePatient{
+    text-align: left;
+    display: block;
+}
+*/
+/*admin page*/
+#butviewDoctor{
+background: url("view.png");
+   position: absolute;
+background-size: 78px 78px;
+top: 202px;
+left: 214px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+/*#p14{    
+  float: left;
+margin-top: -209px;;
+margin-left: 360px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px;
+}*/
+#butviewPatient{
+     background-image: url("view.png");
+        position: absolute;
+    background-size: 78px 78px;
+top: 203px;
+left: 617px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+#pviewDoctor{
+position: absolute;
+top: 290px;
+left: 207px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px; 
+}
+#viewPatien{
+position: absolute;
+top: 289px;
+left: 611px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px; 
+   
+}
+#butprofile{
+     background-image: url("img/profileicon1.png");
+      position: absolute;
+    background-size: 78px 78px;
+    top: 330px;
+left: 422px;
+height: 77px;
+width: 78px;
+border-radius: 50%;
+border: 1px solid black;
+background-repeat: no-repeat;
+}
+#viewprofile{
+ position: absolute;
+top: 413px;
+left: 423px;
+padding: 2px;
+font-family: Andalus;
+font-size: 16px; 
+}
+#imdm{
+    position: absolute;
+    top: 0px;
+    left: 295px;
+    
+}

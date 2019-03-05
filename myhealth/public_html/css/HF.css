@@ -1,0 +1,139 @@
+    body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+    body{
+    background-image: url("background.png");  
+    }
+
+    
+    .Menu{
+        margin-top: 0px; 
+        width: 100%;
+        background: #0079b4;
+        overflow: auto;
+        
+    }
+    
+    .Menu ul{
+       margin:0;
+       padding:0;
+       list-style:none;
+       line-height:60px;  
+       font-size: 18px;
+        
+    }
+  
+    .Menu li{
+       float:left;
+    }
+    .Menu ul li a{
+       background:#0079b4;
+       text-decoration: none;
+       width:130px;
+       display:block;
+       text-align:center;
+       color:white;
+       font-size:18px;
+       font-family:sans-serif;
+       letter-spacing:0.5px
+    }
+     .Menu li a:hover{
+       border: 1px solid #1694ef;  
+       background: #1694ef;  
+       font-size:19px;
+    }
+    #home:active{
+        background: #56b3f6;
+        color: white;
+    }
+    .Regester{
+     float: left;
+     margin-top: 12px;
+     margin-right: 15px;
+     margin-left: 15px;
+     background:#bdf773;
+     color:black;
+     position: relative;
+     font-family:sans-serif;
+     font-size:16px;
+       border-radius: 5px 5px 5px 5px;
+       padding:7px;
+       border:none;
+    }
+    .Regester .Search_form{
+        display: inline;
+    }
+     .search_form{
+       border: 1px solid #0079b4;
+       float:right;
+       margin-right:10px;
+
+    }
+
+     #search{
+       padding:7px;
+       margin-top: 12px;
+       margin-left: 30px;
+       border:none;
+       font-size:16px;
+       font-family:sans-serif;
+    }
+    .Search{
+       margin-top: 12px;
+       margin-left: 0px;
+       margin-right: 50px;
+       background:#bdf773;
+       color:black;
+       border-radius: 0 5px 5px 0;
+       cursor: pointer;
+       position: relative;
+       padding:7px;
+       font-family:sans-serif;
+       border:none;
+       font-size:16px;
+    }
+            #Footer{
+        float: left;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: content-box;
+        border: 1px solid #5ec8d6;
+        background: #0079b4; 
+        display: inline;
+        padding: 30px;
+        width: 100%;
+    }
+    
+            #first{
+            float: left;
+            border: 1px;
+            text-align: left;
+            margin-right: 200px
+            }
+            input{
+                text-align: center;
+            }
+            #second{
+            float: left;
+            border: 1px;
+            margin-right: 200px   
+            }
+            #pic1{
+              border: 1px;
+              display: inline; 
+            }
+            pic2{
+              border: 1px;
+              display: inline;     
+            }
+   
+   #Fourth{
+            float: left;
+            border: 1px; 
+            width: 400px;
+            height: 95px;
+            margin-left: 35px;
+            }
